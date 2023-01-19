@@ -6,7 +6,7 @@
 
 
 #### Problemática:
-- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que, utilizando un grupo de [datasets](https://https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/tree/main/Datasets) provistos, realice las **transformaciones requeridas** y posteriormente **disponibilicen los datos** mediante la elaboración y ejecución de una **API**
+- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que, utilizando un grupo de [datasets](https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/tree/main/Datasets) provistos, realice las **transformaciones requeridas** y posteriormente **disponibilicen los datos** mediante la elaboración y ejecución de una **API**
 
 #### Rol del desarrollador:
 - Data engineer
