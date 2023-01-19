@@ -54,7 +54,7 @@ Se desarrolla el código de las funciones que responden a las consultas solicita
 <hr>
 
 ### Proceso de puesta a disposición los datos utilizando FastAPI (framework que permite construir APIs con Python) y Deta para realizar el deploy: 
-1. Generación de archivo main.py (donde desarrollar el script) y otro requirements.txt (donde alojar los requerimientos para la API)
+1. Generación de archivo [main.py](https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/main.py) (donde desarrollar el script) y otro [requirements.txt](https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/requirements.txt) (donde alojar los requerimientos para la API)
 2. Importación de las librerías a utilizar
 3. Declaración de la creación de la API 
 4. Declaración de la ruta de acceso para la base de datos (general_df)
@@ -77,7 +77,7 @@ def tipo_de_consulta(variable1:tipo_de_dato, variable"n":...):
 <hr>
 
 ### Instrucciones para la utilización de la herramienta: 
-`Ingrese al siguiente URL: https://qlprmb.deta.dev`
+`Ingrese al siguiente URL:` [https://qlprmb.deta.dev](https://qlprmb.deta.dev)
 
 Segun lo consulta que quiera solicitar, debera agregarle a continuación del URL la **consulta y variables** con el siguiente **formato**:
 - Consulta 1: .../**get_word_count/?plataforma=netflix&keyword=love**
@@ -116,6 +116,7 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 - Deta cloud
 - FastApi
 - Uvicorn
+- Pandas library
 
   
-<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="80"/>
+<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="80"/><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1920px-Pandas_logo.svg.png" width="150"/>
