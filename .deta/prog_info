@@ -1,0 +1,1 @@
+{"id":"53155ab0-dab3-4cf6-89d8-ef49bcba80d0","space":48615,"runtime":"python3.9","name":"PI_Data_Engineer","path":"qlprmb","project":"e0gxjtae","account":"144798365827","region":"sa-east-1","deps":["fastapi","pandas","deta"],"envs":null,"public":true,"log_level":"off","cron":""}

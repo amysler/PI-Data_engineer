@@ -86,10 +86,10 @@ def tipo_de_consulta(variable1:tipo_de_dato, variable"n":...):
 <hr>
 
 ### Instrucciones para la utilización de la herramienta: 
-`Ingrese al siguiente URL: `
+`Ingrese al siguiente URL: https://qlprmb.deta.dev`
 
 Segun la consulta deseada, debera pegarle al URL con el siguiente formato:
-- Consulta 1: .../**get_word_count/?´plataforma=netflixX&keyword=love**
+- Consulta 1: .../**get_word_count/?plataforma=netflix&keyword=love**
 - Consulta 2: ...**/get_score_count/?plataform=netflix&score=85&year=2010**
 - Consulta 3: ...**/get_second_score/?plataforma=amazon**
 - Consulta 4: ...**/get_longest/?plataforma=netflix&duracion=min&anio=2016**
@@ -106,10 +106,13 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 <hr> 
 
 #### Ejemplos de busquedas: 
+- Consulta 1: https://qlprmb.deta.dev/get_word_count/?plataforma=netflix&keyword=love
+- Consulta 2: https://qlprmb.deta.dev/get_score_count/?plataform=netflix&score=85&year=2010
+- Consulta 3: https://qlprmb.deta.dev/get_second_score/?plataforma=amazon
+- Consulta 4: https://qlprmb.deta.dev/get_longest/?plataforma=netflix&duracion=min&anio=2016
+- Consulta 5: https://qlprmb.deta.dev/get_rating_count/?rate=18%2B
 
-[Link](https://www. "custom title")
-
-
+##### *Nota: Para conocer mas detalles tecnicos de las funciones y sus respectivos parametros puede ingresar a https://qlprmb.deta.dev/docs*
 
 
 #### [Link a video explicativo confeccionado para equipo de data analytics](https://www. "Proyecto Individual data engineer - Henry's bootcamp")
