@@ -35,8 +35,7 @@ def get_word_count(plataforma:str, keyword:str):
 
     return f'La palabra {keyword} aparece en {plataforma} {valor} veces'
 
-#Ejemplo de consulta testeada localmente: http://127.0.0.1:8000/get_word_count/?plataforma=netflix&keyword=love
-#Ejemplo de consulta testeada en deta:
+#Ejemplo de consulta testeada en deta: https://qlprmb.deta.dev/get_word_count/?plataforma=netflix&keyword=love
 
 #Consulta 2: Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
 @app.get("/get_score_count/")
@@ -55,8 +54,7 @@ async def get_score_count(plataform:str, score:int, year:int):
 
     return f'Peliculas de {plataform} del año {year} con puntaje {score}: {df_gsc.shape[0]}'
 
-#Ejemplo de consulta testeada localmente: http://127.0.0.1:8000/get_score_count/?plataform=netflix&score=85&year=2010
-#Ejemplo de consulta testeada en deta:
+#Ejemplo de consulta testeada en deta: https://qlprmb.deta.dev/get_score_count/?plataform=netflix&score=85&year=2010
 
 #Consulta 3: Segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
 @app.get("/get_second_score/")
@@ -80,10 +78,7 @@ def get_second_score(plataforma:str):
 
     return f'Segunda pelicula ordenada alfabeticamente por titulo con mayor score de la paltaforma {plataforma} es {segundo_titulo} con un score de {segundo_score}'
 
-#Ejemplo de consulta testeada localmente: http://127.0.0.1:8000/get_second_score/?plataforma=amazon
-#Ejemplo de consulta testeada en deta:
-
-
+#Ejemplo de consulta testeada en deta: https://qlprmb.deta.dev/get_second_score/?plataforma=amazon
 
 
 #Consulta 4: Película que más duró según año, plataforma y tipo de duración
@@ -104,8 +99,7 @@ async def get_longest(plataforma:str, duracion:str, anio:int):
         #return (df2["title"])
         return f'Peliculas de {plataforma} del año {anio} con mayor duracion en {duracion}: {df2.iloc[0, 2]}'
 
-#Ejemplo de consulta testeada localmnete: http://127.0.0.1:8000/get_longest/?plataforma=netflix&duracion=min&anio=2016
-#Ejemplo de consulta testeada en deta:
+#Ejemplo de consulta testeada en deta: https://qlprmb.deta.dev/get_longest/?plataforma=netflix&duracion=min&anio=2016
 
 #Consulta 5: Cantidad de series y películas por rate
 @app.get("/get_rating_count/")
@@ -113,5 +107,4 @@ async def get_rating_count(rate:str):
     df1 = general_df[general_df["rating"] == rate]
     return f'Numero de series y peliculas con rating de {rate}: {df1.shape[0]}'
 
-#Ejemplo de consulta testeada localmente: http://127.0.0.1:8000/get_rating_count/?rate=18%2B
-#Ejemplo de consulta testeada en deta:
+#Ejemplo de consulta testeada en deta: https://qlprmb.deta.dev/get_rating_count/?rate=18%2B

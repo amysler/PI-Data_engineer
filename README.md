@@ -6,7 +6,7 @@
 
 
 #### Problemática:
-- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que, utilizando un grupo de [datasets](https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/tree/main/Datasets) provistos, realice las **transformaciones requeridas** y posteriormente **disponibilicen los datos** mediante la elaboración y ejecución de una **API**
+- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que, utilizando un grupo de [datasets](https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/tree/main/Datasets) provistos, realice las **transformaciones requeridas** y posteriormente **ponga a disposición los datos** mediante la elaboración y ejecución de una **API**
 
 #### Rol del desarrollador:
 - Data engineer
@@ -33,7 +33,7 @@
 7.  Unificar 4 plataformas a través de la función “concat” en un dataframe único "general_df" facilitando el código de las consultas a desarrollar
 8.  Cambio tipo de dato "duration_int" a integer
 9.  Exportar CSV final (general_df) con todas las transformaciones
-##### *Nota: La extracción de datos así como las respectivas transformaciones pueden verse desarrolladas en el archivo [ETL.py]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/ETL.ipynb) *
+##### *Nota: La extracción de datos así como las respectivas transformaciones pueden verse desarrolladas en el archivo [ETL.ipynb]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/ETL.ipynb)*
   
   <hr> 
 
@@ -49,11 +49,11 @@
 
 Se desarrolla el código de las funciones que responden a las consultas solicitadas por el cliente
 
-##### *Nota: El desarrolo de las consultas se encuentra alojado en el archivo [ETL.py]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/ETL.ipynb) *
+##### *Nota: El desarrolo de las consultas se encuentra alojado en el archivo [desarrollo_funciones.ipynb]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/desarrollo_funciones.ipynb)*
 
 <hr>
 
-### Proceso de disponibilización de los datos utilizando FastAPI (framework que permite construir APIs con Python) y Deta para realizar el deploy: 
+### Proceso de puesta a disposición los datos utilizando FastAPI (framework que permite construir APIs con Python) y Deta para realizar el deploy: 
 1. Generación de archivo main.py (donde desarrollar el script) y otro requirements.txt (donde alojar los requerimientos para la API)
 2. Importación de las librerías a utilizar
 3. Declaración de la creación de la API 
@@ -115,6 +115,7 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 - Python
 - Deta cloud
 - FastApi
+- Uvicorn
 
   
-<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/>
+<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/><img src="https://raw.githubusercontent.com/tomchristie/uvicorn/master/docs/uvicorn.png" width="80"/>
