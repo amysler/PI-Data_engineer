@@ -33,7 +33,7 @@
 7.  Unificar 4 plataformas a través de la función “concat” en un dataframe único "general_df" facilitando el código de las consultas a desarrollar
 8.  Cambio tipo de dato "duration_int" a integer
 9.  Exportar CSV final (general_df) con todas las transformaciones
-##### *Nota: La carga del CSV final se realiza directamente en el archivo main.py*
+##### *Nota: La extracción de datos así como las respectivas transformaciones pueden verse desarrolladas en el archivo [ETL.py]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/ETL.ipynb) *
   
   <hr> 
 
@@ -48,6 +48,8 @@
 5. Cantidad de series y películas por rating
 
 Se desarrolla el código de las funciones que responden a las consultas solicitadas por el cliente
+
+##### *Nota: El desarrolo de las consultas se encuentra alojado en el archivo [ETL.py]( https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/blob/main/ETL.ipynb) *
 
 <hr>
 
