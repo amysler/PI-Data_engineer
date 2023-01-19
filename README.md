@@ -1,12 +1,12 @@
-<p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
+<p align=center><img src=https://assets.soyhenry.com/logos/LOGO-HENRY-04.png><p>
 
-# Proyecto **data engineer**
+# PROYECTO DATA ENGINEER
 
 ## *Henry´s bootcamp* – Proyecto individual N°1
 
 
 #### Problemática:
-- Simulación de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que a a raíz de un grupo de datasets (ver archivo)  realizar las transformaciones requeridas y disponibilizar los datos mediante la elaboración y ejecución de una **API**
+- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que a a raíz de un grupo de datasets (ver archivo)  realizar las **transformaciones requeridas y disponibilizar los datos** mediante la elaboración y ejecución de una **API**
 
 #### Rol del desarrollador:
 - Data engineer
@@ -43,7 +43,7 @@
 7.  Unificar 4 plataformas a través de la función “concat” en un dataframe único "general_df" facilitando el código de las consultas a desarrollar
 8.  Cambio tipo de dato "duration_int" a integer
 9.  Exportar CSV final (general_df) con todas las transformaciones
-*Nota: La carga del CSV final se realiza directamente en el archivo main.py
+##### *Nota: La carga del CSV final se realiza directamente en el archivo main.py*
   
   <hr> 
 
@@ -96,12 +96,14 @@ Segun la consulta deseada, debera pegarle al URL con el siguiente formato:
 - Consulta 5: ...**/get_rating_count/?rate=18%2B**
 
 Las variables pueden ser reemplazadas en el formato de consulta por el elemento deseado: 
-- Plataforma: **netflix, disney, hulu, amazon**
-- keyword: puede ser reemplazado por cualquier termino deseado (la busqueda se realiza en el "titulo" de peliculas)
-- Score: puntaje determinado de movie/serie
-- Year: año de estreno de movie/serie
-- Duracion: tipo de duracion en **min** o **season**
-- Rate: rate de determinada pelicula 
+- **Plataforma**: **netflix, disney, hulu, amazon**
+- **Keyword**: puede ser reemplazado por cualquier termino deseado (la busqueda se realiza en el "titulo" de peliculas)
+- **Score**: puntaje determinado de movie/serie
+- **Year**: año de estreno de movie/serie
+- **Duracion**: tipo de duracion en **min** o **season**
+- **Rate**: rate de determinada pelicula utilizando **g** (general), **7+**, **13+**, **16+**, **18+** (*Nota: el simbola "+" debe ser reemplazado por "%2B" - Ejemplo: 18+ = 18%2B*)
+
+<hr> 
 
 #### Ejemplos de busquedas: 
 
@@ -110,4 +112,4 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 
 
 
-#### [Link a video explicativo para equipo de data analytics](https://www. "Proyecto Individual data engineer - Henry's bootcamp")
+#### [Link a video explicativo confeccionado para equipo de data analytics](https://www. "Proyecto Individual data engineer - Henry's bootcamp")
