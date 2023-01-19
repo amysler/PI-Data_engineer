@@ -1,29 +1,19 @@
 <p align=center><img src=https://assets.soyhenry.com/logos/LOGO-HENRY-04.png><p>
 
-# PROYECTO DATA ENGINEER
+# PROYECTO INDIVIDUAL N°1 - DATA ENGINEER
 
-## *Henry´s bootcamp* – Proyecto individual N°1
+## *Henry´s bootcamp* 
 
 
 #### Problemática:
-- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que a a raíz de un grupo de datasets (ver archivo)  realizar las **transformaciones requeridas y disponibilizar los datos** mediante la elaboración y ejecución de una **API**
+- **Simulación** de un equipo de data empresarial donde el área de análisis de datos le solicita al de **Data engineering**  que, utilizando un grupo de [datasets](https://https://github.com/amysler/Proyecto_individual_data_engineer-Henry_bootcamp-DTS06/tree/main/Datasets) provistos, realice las **transformaciones requeridas** y posteriormente **disponibilicen los datos** mediante la elaboración y ejecución de una **API**
 
 #### Rol del desarrollador:
 - Data engineer
 
-#### Tecnologías utilizadas:
-- Visual studio code
-- Python
-- Deta cloud
-- FastApi
-
-  
-<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/>
-
-
 <hr> 
 
-### Proceso de "ETL" (Extract, trasnform, load) en VisualStudioCode - Python:
+### Proceso de "ETL" (Extract, transform, load) en VisualStudioCode - Python:
 
 `EXTRACCIÓN DE DATOS`
 
@@ -69,12 +59,11 @@ Se desarrolla el código de las funciones que responden a las consultas solicita
 5. Creación de un directorio índex con mensaje de bienvenida a la interfaz
 6. Desarrollo de las consultas con formato:
    
-
-`@app.get("/tipo_de_consulta/")
+```ruby
+@app.get("/tipo_de_consulta/")
 def tipo_de_consulta(variable1:tipo_de_dato, variable"n":...):
   desarrollo_de_la_funcion
-`
-
+```
 
 7. Creacion de una cuenta en [Deta](https://web.deta.sh/ "Creacion de usuario en deta")
 8. Instalacion del Deta CLI en consola de forma local mediante comando "iwr https://get.deta.dev/cli.ps1 -useb | iex"
@@ -88,7 +77,7 @@ def tipo_de_consulta(variable1:tipo_de_dato, variable"n":...):
 ### Instrucciones para la utilización de la herramienta: 
 `Ingrese al siguiente URL: https://qlprmb.deta.dev`
 
-Segun la consulta deseada, debera pegarle al URL con el siguiente formato:
+Segun lo consulta que quiera solicitar, debera agregarle a continuación del URL la **consulta y variables** con el siguiente **formato**:
 - Consulta 1: .../**get_word_count/?plataforma=netflix&keyword=love**
 - Consulta 2: ...**/get_score_count/?plataform=netflix&score=85&year=2010**
 - Consulta 3: ...**/get_second_score/?plataforma=amazon**
@@ -106,13 +95,24 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 <hr> 
 
 #### Ejemplos de busquedas: 
-- Consulta 1: https://qlprmb.deta.dev/get_word_count/?plataforma=netflix&keyword=love
-- Consulta 2: https://qlprmb.deta.dev/get_score_count/?plataform=netflix&score=85&year=2010
-- Consulta 3: https://qlprmb.deta.dev/get_second_score/?plataforma=amazon
-- Consulta 4: https://qlprmb.deta.dev/get_longest/?plataforma=netflix&duracion=min&anio=2016
-- Consulta 5: https://qlprmb.deta.dev/get_rating_count/?rate=18%2B
+- **Consulta 1:** https://qlprmb.deta.dev/get_word_count/?plataforma=netflix&keyword=love
+- **Consulta 2:** https://qlprmb.deta.dev/get_score_count/?plataform=netflix&score=85&year=2010
+- **Consulta 3:** https://qlprmb.deta.dev/get_second_score/?plataforma=amazon
+- **Consulta 4:** https://qlprmb.deta.dev/get_longest/?plataforma=netflix&duracion=min&anio=2016
+- **Consulta 5:** https://qlprmb.deta.dev/get_rating_count/?rate=18%2B
 
-##### *Nota: Para conocer mas detalles tecnicos de las funciones y sus respectivos parametros puede ingresar a https://qlprmb.deta.dev/docs*
+##### *Nota: Para conocer mas detalles tecnicos acerca de las funciones y sus respectivos parametros puede ingresar a https://qlprmb.deta.dev/docs*
 
 
 #### [Link a video explicativo confeccionado para equipo de data analytics](https://www. "Proyecto Individual data engineer - Henry's bootcamp")
+
+<hr> 
+
+#### Tecnologías utilizadas:
+- Visual studio code
+- Python
+- Deta cloud
+- FastApi
+
+  
+<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/vs-code-responsive-01.svg" width="50"/><img src="https://www.python.org/static/community_logos/python-logo.png" width="150"/><img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta_logo_dark.svg" width="250"/><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"/>
