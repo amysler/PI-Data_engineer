@@ -1,4 +1,4 @@
-#Librerias a utilizar
+#Librerias utilizadas:
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse #Utilizado para generar el formato de texto de la pagina de inicio 
 import pandas as pd

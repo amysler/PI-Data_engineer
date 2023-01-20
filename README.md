@@ -2,7 +2,7 @@
 
 # PROYECTO INDIVIDUAL N°1 - DATA ENGINEER
 
-## *Henry´s bootcamp* 
+## *Desarrollado por Alan Mysler para Henry´s bootcamp* 
 
 
 #### Problemática:
@@ -106,7 +106,7 @@ Las variables pueden ser reemplazadas en el formato de consulta por el elemento 
 ##### *Nota: Para conocer mas detalles tecnicos acerca de las funciones y sus respectivos parametros puede ingresar a https://qlprmb.deta.dev/docs*
 
 
-#### [Link a video explicativo confeccionado para equipo de data analytics](https://www. "Proyecto Individual data engineer - Henry's bootcamp")
+#### [Link a video explicativo confeccionado para equipo de data analytics](https://www.youtube.com/watch?v=o7A5xAoOQqE "Proyecto Individual data engineer - Henry's bootcamp")
 
 <hr> 
 
